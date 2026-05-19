@@ -1,0 +1,365 @@
+.button-style {
+    background-color: green;
+    border : none; /*Pas de bordure*/
+    color : white; /*Couleur du texte*/
+    padding : 10px 0; /*Espacement*/
+    text-align : center;/*Alignement du texte*/
+    text-decoration : none;/*Pas de soulignement*/
+    font-size : 18px;/*Taille de police*/
+    margin : 4px;
+    cursor:pointer; /*Forme du curseur*/
+    font-weight:bold;/*Appliquer texte en gras*/
+    display: inline-block;
+    width: 205px;
+} 
+.containerleftright {
+    display:flex; /*Permet de rendre l'objet flaxible*/
+    justify-content: space-between; /*Espacement entre chaque objet*/
+    width: 70%;
+    margin: auto;
+}
+
+.left, .right{
+    width: 60%;
+    padding: 5px;
+}
+
+.main{
+    display: flex;
+    flex: 1; /*Nombre de section après la première section*/
+    width: 70%;
+    margin: auto;
+}
+
+.content{
+    width: 80%;
+    padding: 20px;
+}
+.sectionsleft{ 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sectionleft{
+    background-color: aliceblue;
+    width: 230px;
+    padding: 10px;
+    margin: 10px;
+}
+
+body, html{/*Style de base pour html*/
+height: 100%;
+font-family: Arial;
+display: flex;
+flex-direction: column;
+}
+
+p, h3{/*appliquer les modifications sur les balises p et h3*/
+    color: dimgray;
+    font-size: 18px;
+}
+
+a{
+    color: green;
+    font-size: 18px;
+}
+
+span{
+    color: dimgray;
+}
+
+.button-container{
+    margin: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.containerceremony{ 
+width: 70%; 
+margin: auto; /* Centre le contenu horizontalement*/ 
+} 
+
+.button-ceremony{ 
+background-color: green;/* Couleur de fond du boutton*/ 
+color: white;/*Couleur du texte*/ 
+border: 5px solid black;/*Bordure dorée*/ 
+padding: 15px 40px;/* Espacement intérieur*/ 
+text-align: center;/*Alignement du texte*/ 
+font-size: 18px;/*Taille de la police*/ 
+font-weight: bold;/* Poids de la police*/ 
+margin: 10px 60px;/*Marges*/  
+border-radius: 10px;/* 10: coins arrondis*/ 
+box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/ 
+font-family: 'Times New Roman';/* Typographie*/ }
+
+.container_informations{ 
+    width: 80%; 
+      margin: 2px auto; /*Centre le contenu*/ 
+    padding: 30px; 
+} 
+table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse; /*bordures adjacentes des cellules*/ 
+} 
+th{ 
+    text-align: left; 
+} 
+ 
+/*Table2*/ 
+caption{ 
+    caption-side: top;/*Légende au-dessus du tableau*/ 
+    font-size: 18px; 
+    margin-bottom: 10px;/*Espace entre la légende et le tableau*/ 
+    font-weight: bold; 
+    text-align: center;/*Centrer la légende*/ 
+    color: green; /*Couleur verte*/ 
+} 
+
+.bannière-admission{
+background-color: rgb(66, 210, 243); /* Couleur de fond de la bannière */
+color: black; /* Couleur du texte */
+text-align: center; /* Alignement du texte */
+padding: 20px; /* Espacement intérieur */
+font-size: 45px; /* Taille de la police */
+font-weight: bold; /* Poids de la police */
+width: 100%; /* Largeur de la bannière */
+padding: 20px; /* Espacement intérieur */
+margin: 0 auto; /* Centrer la bannière */
+margin-bottom: 20px; /* Espace en dessous de la bannière */
+}
+
+.button-admission{
+background-color: rgb(66, 210, 243); /* Couleur de fond de la bannière */
+color: black; /* Couleur du texte */
+text-align: center; /* Alignement du texte */
+padding: 20px; /* Espacement intérieur */
+font-size: 20px; /* Taille de la police */
+font-weight: bold; /* Poids de la police */
+width: 40%; /* Largeur de la bannière */
+padding: 20px; /* Espacement intérieur */
+margin: 0 auto; /* Centrer la bannière */
+margin-bottom: 20px; /* Espace en dessous de la bannière */
+}
+
+.Button-Adress{
+    display: block;
+    background-color: rgb(66, 210, 243); /* Couleur de fond de la bannière */
+    color: black; /* Couleur du texte */
+    border: 5px solid black; /* Bordure noire de 5px */
+    padding: 25px 100px; 
+    margin: 10px auto;
+    text-align: center; /* Alignement du texte */
+    font-size: 18px; /* Taille de la police */
+    font-weight: bold; /* Poids de la police */
+    box-shadow: 0 10px 15px black; /* Ombre verte */
+}
+
+        
+body.UBS-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white; 
+  font-family: Arial;
+}
+.top-UBS {
+  display: flex;
+  align-items: center;         
+  padding: 20px ;
+  background-color: white;  
+}
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.photo-container {
+    width: 300px;
+    height: 220px;
+}
+.photo-container img {
+    width: 100%;
+    height: 100%;
+}
+.photo-container .titre {
+    background: black; 
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy; 
+}
+
+.containerleftright2 {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 20% 80%;/*deux colonnes*/
+    grid-template-rows: none;/*aucune ligne*/
+}
+
+.left2 {
+    width: 20%;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.right2 {
+    width: 80%;
+    padding: 5px;
+}
+
+.button2-style {
+    background-color: green;
+    border : none; /*Pas de bordure*/
+    color : white; /*Couleur du texte*/
+    padding : 10px 0; /*Espacement*/
+    text-align : center;/*Alignement du texte*/
+    text-decoration : none;/*Pas de soulignement*/
+    font-size : 18px;/*Taille de police*/
+    margin : 4px;
+    cursor:pointer; /*Forme du curseur*/
+    font-weight:bold;/*Appliquer texte en gras*/
+    display: inline-block;
+    width: 205px;}
+    
+ 
+#Iframe_ENSIBS{
+border: 2px solid #2c3e50;
+border-radius: 5px; /*Coins arrondis*/
+}
+#Iframe_ENSIBS_a{
+color: #1980b9; /* Couleur du texte des liens*/
+text-decoration: none; /* Supprime la décoration par défaut (soulignement)*/
+font-weight: bold; /*Texte en gras*/
+}
+#Iframe_ENSIBS_a:hover{
+text-decoration: underline; /*Soulignement du texte au survol*/
+color: green;
+}
+
+body.ubs-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.top-UBS {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.top-UBS h1 {
+  color: black;
+}
+
+.photo-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+ background-color: #001f3f; 
+}
+
+.photo-container {
+  width: 300px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #001f3f; 
+}
+
+body.ENSIBS-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.top-ENSIBS {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: darkgreen;
+}
+
+.top-ENSIBS h1 {
+  color: white;
+  text-align: center;
+}
+
+.bottom-ENSIBS {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: darkgreen;
+}
+
+.containerMedia {
+      width: 70%;
+      margin: auto; 
+      align-items: center;   
+      text-align: center;
+  }
+  .video-container {
+    display: flex;/*diviser la section */
+    align-items: center;
+}
+.video {
+    flex: 1; /*ajouter une sous-section */
+    margin: 10px;
+}
+#button-média {
+  display: inline-block; /*centrer*/
+  margin: 20px auto;
+  border: black;
+  cursor: pointer;                                                                          
+  background-color: lightblue; 
+  color: black; 
+  border: 5px solid black;
+  border-radius: 6px;
+  padding: 15px 40px; 
+  text-align: center; 
+  font-size: 22px; 
+  font-weight: bold; 
+  font-family: 'Times New Roman'; 
+}
